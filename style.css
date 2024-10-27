@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background-color: blue;
+    color: white;
+}
+nav .logo img{
+    margin-left: 56%;
+    margin-top: 2%;
+    width: 31%;
+}
+.logo p{
+    margin-left: 56%;
+} 
+.logo p span{
+    color: yellow;
+}
+
+nav input{
+    width: 30%;
+    height: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-top: 8px;
+    border-radius: 2px;
+
+}
+nav i{
+    margin-top: 19px;
+    margin-left: -25px;
+    color: rgb(16, 36,255);
+    font-size: 18px;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 3px;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 22px;
+
+}
+ul li a{
+    margin-inline: 25px;
+    font-size: 17px;
+    list-style: none;
+}
+ul li a:hover{
+    color: gray;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*justify-content: space-around;*/
+    margin-top: 20px;
+}
+#up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#a{
+    width: 15.2%;
+}
+#b{
+    width: 15.1%;
+}
+#c{
+    width: 16.2%;
+}
+#d{
+    width: 15.2%;
+}
+#e{
+    width: 17.3%;
+}
+#down{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#f{
+    width: 13%;
+}
+#g{
+   width: 14%;
+}
+#h{
+    width: 15.5%;
+}
+#i{
+   width: 15%;
+}
+#j{
+   width: 15.5%;
+}
